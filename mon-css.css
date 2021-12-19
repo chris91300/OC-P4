@@ -30,6 +30,12 @@ blockquote p strong{
     font-weight: bold;
 }
 
+figcaption{
+    font-size: 1.5rem;
+    color: black;
+    font-weight: bold;
+}
+
 
 /*   images du portfolio     */
 .img-responsive{
