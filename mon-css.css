@@ -1,0 +1,44 @@
+
+
+strong{
+    font-weight: normal;
+}
+
+blockquote{
+    border-left: none;
+    margin: 0;
+}
+
+blockquote p:before{
+    display: inline;
+    content: "\201c";
+}
+
+blockquote p:after{
+    display: inline;
+    content: "\201d";
+}
+
+blockquote p{
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+    font-style: italic;
+}
+
+blockquote p strong{
+    font-weight: bold;
+}
+
+
+/*   images du portfolio     */
+.img-responsive{
+    margin: auto;
+}
+
+
+/*  modification du texte dans le footer*/
+.footer-text{
+    text-align: center;
+    color: yellow!important;
+}
